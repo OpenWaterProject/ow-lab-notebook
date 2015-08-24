@@ -15,18 +15,26 @@ The gist (as far as I yet understand!) is:  measuring the amount of suspended so
 - Secchi disk
 - 'Trigger' ideas.
 
-So, what are the various definitions?
+So, what are the various definitions / approaches?
 
+Background readings / materials:
 
-- http://www.fondriest.com/environmental-measurements/equipment/measuring-water-quality/turbidity-sensors-meters-and-methods/
+- [Fondriest review](http://www.fondriest.com/environmental-measurements/equipment/measuring-water-quality/turbidity-sensors-meters-and-methods/)
+- [EPA review](http://water.epa.gov/lawsregs/rulesregs/sdwa/mdbp/upload/2001_01_12_mdbp_turbidity_chap_11.pdf)
 
 
 # First steps towards measurement
 
-- Chris design
+- Chris' design for PVC housing
 - Pete design
+- sketch of design idea with Bethany re: pvc / riffle
+
+## Sensors
+
 - Adafruit sensors
-- sketch of design idea with Bethany re: pvc / riffle 
+-- [Adafruit TSL2591 High Dynamic Range Digital Light Sensor](http://www.adafruit.com/products/1980?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1hb43Ub5CR7TSTamNBer7x-t3-FwrEZkxcEN1Hy_rXMaAlLP8P8HAQ)
+-- [GA1A12S202 Log-scale Analog Light Sensor](http://www.adafruit.com/products/1384?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1mFemOLx3eg_rCWAgsncuij1epxwds8A0sAr97IrN-0aAqib8P8HAQ)
+- Craig's photocell + op-amp idea
 
 # Next steps
 
