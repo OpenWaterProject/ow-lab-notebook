@@ -10,10 +10,11 @@ The gist (as far as I yet understand!) is:  measuring the amount of suspended so
 
 # Standards / references / definitions
 
-- EPA
-- Sensor approaches
-- Secchi disk
-- 'Trigger' ideas.
+Sensor approach / design depends on goals.  Various (overlapping) goals might include:
+
+- Data that approaches EPA standards for turbidity
+- Data that indicates sudden changes in turbidity level, useful as a 'trigger' for water sampling / photo taking
+- Colorimetric data that might correlate with various contaminants / types of suspended solids.
 
 So, what are the various definitions / approaches?
 
