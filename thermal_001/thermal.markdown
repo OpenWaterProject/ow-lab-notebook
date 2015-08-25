@@ -4,7 +4,30 @@ Today Laura Perovich led Joe Goldbeck and me on an expedition to the Charles Riv
 
 Laura's previous research note on making a custom temperature sensor board is [here](http://publiclab.org/notes/lperovich/07-07-2015/thermal-fishing-bob-faster-waterproofed-temperature-sensors). 
 
-The device she settled on was the Atmel AT30TS750A.  She
+![](./assets/tempSensor.jpg)
+
+The device she settled on was the Atmel AT30TS750A.  She made a custom footprint for the device in Eagle, and made her own PCB (see above note); and used various approaches to trying to waterproof the device without putting so much material on it that the thermal response time was increased much ...
+
+So then, a test: putting the sensors into the Charles River.  We all walked out the MIT boathouse dock.  We passed by a nice man working there who didn't seem at all concerned that we were carrying a tangle of wires and circuit boards.
+
+![](./assets/lauraBox.jpg)
+
+![](./assets/sensorDock.png)
+
+![](./assets/wiring.png)
+
+The final device deployed was:
+
+- An Arduino Pro Mini (same processor as the UNO (thermal fishing bob) and as the Riffle)
+- An Adafruit SD card breakout board
+- Laura's AT30TS750A breakout boards: three of them in a chain
+
+![](./assets/sensorOnDock.JPG)
+
+# Pro tip
+
+- We spent an entire day debugging the circuit before realizing that we hadn't put 10K 'pullup' resistors on the I2C bus lines (the temp sensor is an I2C device).  Got lots of odd readings until we figured out the problem -- then it worked like a charm.  (E.g. the Riffle breaks out the I2C bus for its add-on sensor boards, and include 10K pull-ups on the main board, so they're not necessary on the add-on boards ... but not sure what happens if you have *extra* on the same bus ...)
+
 
 
 # Useful additional info
