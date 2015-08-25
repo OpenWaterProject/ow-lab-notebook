@@ -61,6 +61,15 @@ Since you need to measure at 90°, you can just put a mirror on the baffle at 45
 
 - sketch of design idea with Bethany re: pvc / riffle
 
+
+- Hackteria.org design for DIY turibidy meter: http://hackteria.org/wiki/index.php/DIY_turbidity_meters
+
+- 'Affordable Open-Source Turbidimeter' http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CCkQFjABahUKEwiagNbHtsPHAhWBbD4KHer-AF8&url=http%3A%2F%2Fwww.mdpi.com%2F1424-8220%2F14%2F4%2F7142%2Fpdf&ei=BfPbVdrpGYHZ-QHq_YP4BQ&usg=AFQjCNEaOSQL8Hzs4HLt5y-m1jHs-HROGg&sig2=LQc0_LE4zv79vbMGlUEcBw
+- and: https://github.com/wash4all/open-turbidimeter-project
+- supplementary material: http://www.mdpi.com/1424-8220/14/4/7142/s1
+
+- cell concentration turbidimeter (open source ecology) http://opensourceecology.org/wiki/CellConcentrationTurbidimeter
+
 ## Sensors
 
 
@@ -68,8 +77,12 @@ Since you need to measure at 90°, you can just put a mirror on the baffle at 45
 
 <img src="./assets/tsl2591.jpg" width=250>
 
+Notes: this sensor seems good b/c it's sensitive in the IR as well, and the recommended wavelength for some of the turbidity sensors is in the IR.
+
 - [GA1A12S202 Log-scale Analog Light Sensor](http://www.adafruit.com/products/1384?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1mFemOLx3eg_rCWAgsncuij1epxwds8A0sAr97IrN-0aAqib8P8HAQ)
 - Craig's photocell + op-amp idea
+- light-frequency converter (for Coqui-like device): http://www.ti.com/lit/ds/symlink/tsl235.pdf
+
 
 # Next steps
 
