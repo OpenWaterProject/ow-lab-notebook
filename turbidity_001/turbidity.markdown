@@ -23,8 +23,8 @@ Background readings / materials:
 - [Fondriest review](http://www.fondriest.com/environmental-measurements/equipment/measuring-water-quality/turbidity-sensors-meters-and-methods/)
 - [EPA review](http://water.epa.gov/lawsregs/rulesregs/sdwa/mdbp/upload/2001_01_12_mdbp_turbidity_chap_11.pdf)
 
-<img src="./assets/single-beam-color.png">
 
+![single](https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/turbidity_001/)
 ![multiple](./assets/four-beam-color.png)
 
 ![scatter](./assets/scatter-patterns-color.png)
