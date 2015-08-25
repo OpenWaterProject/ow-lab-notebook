@@ -66,7 +66,7 @@ Since you need to measure at 90°, you can just put a mirror on the baffle at 45
 
 - [Adafruit TSL2591 High Dynamic Range Digital Light Sensor](http://www.adafruit.com/products/1980?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1hb43Ub5CR7TSTamNBer7x-t3-FwrEZkxcEN1Hy_rXMaAlLP8P8HAQ); [tutorial](https://learn.adafruit.com/adafruit-tsl2591)
 
-![tsl2591](./assets/tsl2591.jpg)
+![tsl2591](./assets/tsl2591.jpg =250x)
 
 - [GA1A12S202 Log-scale Analog Light Sensor](http://www.adafruit.com/products/1384?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1mFemOLx3eg_rCWAgsncuij1epxwds8A0sAr97IrN-0aAqib8P8HAQ)
 - Craig's photocell + op-amp idea
