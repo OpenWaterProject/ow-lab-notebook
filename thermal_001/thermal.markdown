@@ -4,17 +4,17 @@ Today Laura Perovich led Joe Goldbeck and me on an expedition to the Charles Riv
 
 Laura's previous research note on making a custom temperature sensor board is [here](http://publiclab.org/notes/lperovich/07-07-2015/thermal-fishing-bob-faster-waterproofed-temperature-sensors). 
 
-![](./assets/tempSensor.jpg)
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/thermal_001/assets/tempSensor.jpg>
 
 The device she settled on was the Atmel AT30TS750A.  She made a custom footprint for the device in Eagle, and made her own PCB (see above note); and used various approaches to trying to waterproof the device without putting so much material on it that the thermal response time was increased much ...
 
 So then, a test: putting the sensors into the Charles River.  We all walked out the MIT boathouse dock.  We passed by a nice man working there who didn't seem at all concerned that we were carrying a tangle of wires and circuit boards.
 
-![](./assets/lauraBox.jpg)
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/thermal_001/assets/lauraBox.jpg>
 
-![](./assets/sensorDock.png)
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/thermal_001/assets/sensorDock.png>
 
-![](./assets/wiring.png)
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/thermal_001/assets/wiring.png>
 
 The final device deployed was:
 
@@ -22,7 +22,7 @@ The final device deployed was:
 - An Adafruit SD card breakout board
 - Laura's AT30TS750A breakout boards: three of them in a chain
 
-![](./assets/sensorOnDock.JPG)
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/thermal_001/assets/sensorOnDock.JPG>
 
 # Pro tip
 
