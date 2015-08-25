@@ -24,7 +24,8 @@ Background readings / materials:
 - [EPA review](http://water.epa.gov/lawsregs/rulesregs/sdwa/mdbp/upload/2001_01_12_mdbp_turbidity_chap_11.pdf)
 
 
-![single](https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/turbidity_001/)
+![single](./assets/single-beam-color.png)
+
 ![multiple](./assets/four-beam-color.png)
 
 ![scatter](./assets/scatter-patterns-color.png)
