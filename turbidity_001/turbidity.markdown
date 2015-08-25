@@ -10,8 +10,7 @@ The gist (as far as I yet understand!) is:  measuring the amount of suspended so
 
 # Standards / references / definitions
 
-Sensor approach / design depends on goals.  Various (overlapping) goals might include:
-
+Sensor approach / design depends on goals.  Various (overlapping) goals might include: 
 - Data that approaches EPA standards for turbidity
 - Data that indicates sudden changes in turbidity level, useful as a 'trigger' for water sampling / photo taking
 - Colorimetric data that might correlate with various contaminants / types of suspended solids.
@@ -36,6 +35,24 @@ Background readings / materials:
 # First steps towards measurement
 
 - Chris' design for PVC housing
+
+![pvc1](./assets/pvc-1.jpg)
+
+![pvc2](./assets/pvc-2.jpg)
+
+![pvc3](./assets/pvc-3.jpg)
+
+"It looks like you have to measure light intensity at 90° from light direction. So you need a mirror.
+
+The design above has two features:
+
+1.       There is only one simple small window that has to be waterproofed.
+
+2.       The baffle keeps ambient light to a minimum but allows plenty of water to circulate in front of the window.
+
+Since you need to measure at 90°, you can just put a mirror on the baffle at 45°. Shoot the light straight out to it and measure it a cm from the mirror."
+
+
 - Pete design
 - sketch of design idea with Bethany re: pvc / riffle
 
@@ -43,6 +60,9 @@ Background readings / materials:
 
 
 - [Adafruit TSL2591 High Dynamic Range Digital Light Sensor](http://www.adafruit.com/products/1980?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1hb43Ub5CR7TSTamNBer7x-t3-FwrEZkxcEN1Hy_rXMaAlLP8P8HAQ); [tutorial](https://learn.adafruit.com/adafruit-tsl2591)
+
+![tsl2591](./assets/tsl2591.jpg)
+
 - [GA1A12S202 Log-scale Analog Light Sensor](http://www.adafruit.com/products/1384?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1mFemOLx3eg_rCWAgsncuij1epxwds8A0sAr97IrN-0aAqib8P8HAQ)
 - Craig's photocell + op-amp idea
 
