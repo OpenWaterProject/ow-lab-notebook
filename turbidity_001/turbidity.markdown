@@ -82,7 +82,7 @@ Collecting some promising detector options ...
 
 A common light sensor is a very inexpensive photoresistor made of Cadmium-Sulfide:
 
-<img src="./assets/photoresistor.jpg">
+<img src="./assets/photoresistor.jpg" width=250>
 
 The trouble with these sensors is that their response is both wavelength-dependent *and* strongly temperature dependent; also, the manufacturing process [is typically very inconsistent](https://learn.adafruit.com/photocells/overview).  Such variations / dependencies can in principle be accounted for through a process of calibration and compensation:  simply measure the response of the sensor to variations in wavelength and temperature, and use this response curve to adjust the sensor values.  But in practice, it may be easier to simply find sensors that are produced with a less variable manufacturing process, and which e.g. have on-board temperature compensation.  This doesn't avoid the necessity to calibrate and test the sensor, but can make the process much easier / less involved.   
 
