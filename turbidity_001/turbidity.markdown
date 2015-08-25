@@ -46,14 +46,19 @@ Background readings / materials:
 
 The design above has two features:
 
-1.       There is only one simple small window that has to be waterproofed.
+- There is only one simple small window that has to be waterproofed.
 
-2.       The baffle keeps ambient light to a minimum but allows plenty of water to circulate in front of the window.
+- The baffle keeps ambient light to a minimum but allows plenty of water to circulate in front of the window.
 
 Since you need to measure at 90°, you can just put a mirror on the baffle at 45°. Shoot the light straight out to it and measure it a cm from the mirror."
 
 
 - Pete design
+
+![linear1](./assets/linear-1.png)
+
+![linear2](./assets/linear-2.png)
+
 - sketch of design idea with Bethany re: pvc / riffle
 
 ## Sensors
