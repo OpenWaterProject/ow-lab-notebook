@@ -20,22 +20,22 @@ A sampling:
 
 Basically, all the approaches involve shining a light into a sample and measuring what comes out.  There are some details that matter regarding what wavelength(s) to shine into the sample -- some wavelengths penetrate water better, and the scattering pattern that results can also be wavelength and particle-size dependent.  
 
-![](./assets/scatter-patterns-color.png)
+<img src="./assets/scatter-patterns-color.png">
 
 The sensor approach and design will depend on the goal: what is one hoping to measure, to what standard?  If one is simply looking for significant changes in turbidity from baseline, say, one might need to worry too much about things like the dependence of the signal on particle size or the color of the light source.  But if one wants to compare measurements across sensors directly, or interact with regulation, one might want to follow one of the published standard methods.
 
 For example, EPA Method 180.1 requires that a tungsten lamp be used as the light source; whereas the ISO 7027 standard specifies an 860 +/- 30 nm light source. This latter standard seems more easily accomplished in a field sensor, and has the advantage that the scattering is not affected by wavelength-dependencies.  
 Both the EPA Method 180.1 and the ISO 7027 involve a configuration in which the emitter and the detector are at right angles from one another (which is conisdered to better assess scattering from suspended particles):
 
-![](./assets/single-beam-color.png)
+<img src="./assets/single-beam-color.png">
 
 Another method, the Great Lakes Instrument Method 2, further reduces error in the measurement by employing two sensor-emitter pairs, arranged in such a way that some of the typical measurement errors cancel, and the sensitivity of the instrument is enhanced:
 
-![](./assets/four-beam-color.png)
+<img src="./assets/four-beam-color.png">
 
 Because of the complexity of this configuration, however, it seems better to focus on a single sensor-emitter pair, in line with the EPA / ISO standards.  Typical sensor instruments implement this configuration in the tip of the probe (sometimes including detectors at angles other than 90 degrees (e.g., the 'back scatter' detector in the below figure) in order to attempt to do some error compensation:
 
-![sensor-design](./assets/sensor-design.png)
+<img src="./assets/sensor-design.png">
 
 # First steps towards measurement
 
@@ -58,9 +58,9 @@ Chris' notes:
 
 At a recent water quality sensor workshop in Port Jervis, NY, Pete Marchetto and Katy Hofmeister presented a turbidity sensor design that simply used an LED and an photocell pointing directly at one another:
 
-![linear1](./assets/linear-1.png)
+<img src="./assets/linear-1.png">
 
-![linear2](./assets/linear-2.png)
+<img src="/assets/linear-2.png">
 
 The emitter and detector are hot glued to the outside of a plastic box, which is intended to be submersed in water.  It was inspiring to see this simple design!  In the design I'm pursuing, I'm thinking of trying to find a way to accomplish the 90 degree offset as in the above standards, and I might opt for a different light detector -- but Pete and Katy's design might be all one needs to accomplish a 'turbidity alert' device, and should probably be attempted in parallel.  
 
@@ -82,7 +82,7 @@ Collecting some promising detector options ...
 
 A common light sensor is a very inexpensive photoresistor made of Cadmium-Sulfide:
 
-![photoresist](./assets/photoresistor.jpg)
+<img src="./assets/photoresistor.jpg">
 
 The trouble with these sensors is that their response is both wavelength-dependent *and* strongly temperature dependent; also, the manufacturing process [is typically very inconsistent](https://learn.adafruit.com/photocells/overview).  Such variations / dependencies can in principle be accounted for through a process of calibration and compensation:  simply measure the response of the sensor to variations in wavelength and temperature, and use this response curve to adjust the sensor values.  But in practice, it may be easier to simply find sensors that are produced with a less variable manufacturing process, and which e.g. have on-board temperature compensation.  This doesn't avoid the necessity to calibrate and test the sensor, but can make the process much easier / less involved.   
 
