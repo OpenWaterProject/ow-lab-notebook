@@ -10,24 +10,30 @@ The gist (as far as I yet understand!) is:  measuring the amount of suspended so
 
 # Standards / references / definitions
 
-Sensor approach / design depends on goals.  Various (overlapping) goals might include: 
-- Data that approaches EPA standards for turbidity
-- Data that indicates sudden changes in turbidity level, useful as a 'trigger' for water sampling / photo taking
-- Colorimetric data that might correlate with various contaminants / types of suspended solids.
+We've found some good background readings that lead one through the various approaches to turibidity, and the associated designs / standards.
 
-So, what are the various definitions / approaches?
 
-Background readings / materials:
+A sampling:
 
 - [Fondriest review](http://www.fondriest.com/environmental-measurements/equipment/measuring-water-quality/turbidity-sensors-meters-and-methods/)
 - [EPA review](http://water.epa.gov/lawsregs/rulesregs/sdwa/mdbp/upload/2001_01_12_mdbp_turbidity_chap_11.pdf)
 
+Basically, all the approaches involve shining a light into a sample and measuring what comes out.  There are some details that matter regarding what wavelength(s) to shine into the sample -- some wavelengths penetrate water better, and the scattering pattern that results can also be wavelength and particle-size dependent.  
+
+![scatter](./assets/scatter-patterns-color.png)
+
+The sensor approach and design will depend on the goal: what is one hoping to measure, to what standard?  If one is simply looking for significant changes in turbidity from baseline, say, one might need to worry too much about things like the dependence of the signal on particle size or the color of the light source.  But if one wants to compare measurements across sensors directly, or interact with regulation, one might want to follow one of the published standard methods.
+
+For example, EPA Method 180.1 requires that a tungsten lamp be used as the light source; whereas the ISO 7027 standard specifies an 860 +/- 30 nm light source. This latter standard seems more easily accomplished in a field sensor, and has the advantage that the scattering is not affected by wavelength-dependencies.  
+Both the EPA Method 180.1 and the ISO 7027 involve a configuration in which the emitter and the detector are at right angles from one another (which is conisdered to better assess scattering from suspended particles):
 
 ![single](./assets/single-beam-color.png)
 
+Another method, the Great Lakes Instrument Method 2, further reduces error in the measurement by employing two sensor-emitter pairs, arranged in such a way that some of the typical measurement errors cancel, and the sensitivity of the instrument is enhanced:
+
 ![multiple](./assets/four-beam-color.png)
 
-![scatter](./assets/scatter-patterns-color.png)
+Because of the complexity of this configuration, however, it seems better to focus on a single sensor-emitter pair, in line with the EPA / ISO standards.  Typical sensor instruments implement this configuration in the tip of the probe:
 
 ![sensor-design](./assets/sensor-design.png)
 
