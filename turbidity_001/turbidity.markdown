@@ -64,6 +64,8 @@ At a recent water quality sensor workshop in Port Jervis, NY, Pete Marchetto and
 
 The emitter and detector are hot glued to the outside of a plastic box, which is intended to be submersed in water.  It was inspiring to see this simple design!  In the design I'm pursuing, I'm thinking of trying to find a way to accomplish the 90 degree offset as in the above standards, and I might opt for a different light detector -- but Pete and Katy's design might be all one needs to accomplish a 'turbidity alert' device, and should probably be attempted in parallel.  
 
+### Other designs
+
 Along with these designs, there are several existing designs in the community for turbidimeters and the like: 
 
 - Hackteria.org has collected several designs for a DIY turibidy meter: http://hackteria.org/wiki/index.php/DIY_turbidity_meters
@@ -76,18 +78,29 @@ Along with these designs, there are several existing designs in the community fo
 
 ## Sensors
 
+Collecting some promising sensors ...
 
-- [Adafruit TSL2591 High Dynamic Range Digital Light Sensor](http://www.adafruit.com/products/1980?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1hb43Ub5CR7TSTamNBer7x-t3-FwrEZkxcEN1Hy_rXMaAlLP8P8HAQ); [tutorial](https://learn.adafruit.com/adafruit-tsl2591)
+A common light sensor is a very inexpensive photoresistor made of Cadmium-Sulfide:
+
+![photoresist](./assets/photoresistor.jpg)
+
+The trouble with these sensors is that their response is both wavelength-dependent *and* strongly temperature dependent; also, the manufacturing process [is typically very inconsistent](https://learn.adafruit.com/photocells/overview).  Such variations / dependencies can in principle be accounted for through a process of calibration and compensation:  simply measure the response of the sensor to variations in wavelength and temperature, and use this response curve to adjust the sensor values.  But in practice, it may be easier to simply find sensors that are produced with a less variable manufacturing process, and which e.g. have on-board temperature compensation.  This doesn't avoid the necessity to calibrate and test the sensor, but can make the process much easier / less involved.   
+
+- An example of a more sophisticated sensor is the [Adafruit TSL2591 High Dynamic Range Digital Light Sensor](http://www.adafruit.com/products/1980?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1hb43Ub5CR7TSTamNBer7x-t3-FwrEZkxcEN1Hy_rXMaAlLP8P8HAQ); [tutorial](https://learn.adafruit.com/adafruit-tsl2591)
 
 <img src="./assets/tsl2591.jpg" width=250>
 
-Notes: this sensor seems good b/c it's sensitive in the IR as well, and the recommended wavelength for some of the turbidity sensors is in the IR.
+This sensor is sensitive to both visible and IR bands -- useful,  860 nm +/- 30 recommended in ISO 7027, and this is approaching near-infrared. 
 
-- [GA1A12S202 Log-scale Analog Light Sensor](http://www.adafruit.com/products/1384?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1mFemOLx3eg_rCWAgsncuij1epxwds8A0sAr97IrN-0aAqib8P8HAQ)
-- Craig's photocell + op-amp idea
-- light-frequency converter (for Coqui-like device): http://www.ti.com/lit/ds/symlink/tsl235.pdf
+This chip uses a digital protocol (I2C) which is easy to implement on most microcontrollers.
+
+Another possibility is an analog sensor, the [GA1A12S202 Log-scale Analog Light Sensor](http://www.adafruit.com/products/1384?gclid=Cj0KEQjwgeuuBRCiwpD0hP3Cg4kBEiQAHflm1mFemOLx3eg_rCWAgsncuij1epxwds8A0sAr97IrN-0aAqib8P8HAQ).  This means that the resolution of the measurement will depend on the resolution of the analog-to-digital converter used to measure it; the 10-bit resolution on Atmel 328 chips may or may not be sufficient.  But it also has the simplicity of a simple voltage output, which can be tested easily and used in applications in which a full microcontroller with a digital protocol isn't ideal (perhaps a 555 timer based approach?
+
+Speaking of simple protocols -- there also exist light level -> frequency converter chips, as per this device: http://www.ti.com/lit/ds/symlink/tsl235.pdf.  This means that a light level could be output to a frequency.
 
 ## Emitters
+
+The other side of the process is the 'emitter' -- the light source.  Here's a quick list of options found looking for LEDs in the range of 860 nm +/- 30 nm:
 
 - Surface mount chips at 850 nm: http://www.mouser.com/new/optoelectronics/infrared-data-communications/infrared-emitters-high-power/n-9frrm -- emit mostly out of top of chip
 
@@ -101,8 +114,6 @@ Notes: this sensor seems good b/c it's sensitive in the IR as well, and the reco
 
 - list of parts on digikey (search for 830 nm to 890 nm): http://www.digikey.com/product-search/en?pv40=17&pv40=874&pv40=873&pv40=574&pv40=615&pv40=19&pv40=44&pv40=181&pv40=8&pv40=877&pv40=643&pv40=586&pv40=63&FV=fff40008%2Cfff80028&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25
 
-
-# Next steps
 
 
 [1] Not always, though! Depending on the question one is interested in, or the audience, it may be enough to simply to e.g. take a photo of a river and show that it looks 'pretty muddy'.  Mining operations and runoff from farmlands can turn normally-clear rivers muddy, and in some contexts this is enough to indicate a problem / trigger regulatory action.  Also: a measurement of water 'transparency', which can be related to turbidity, using a simple Secchi disk device (https://en.wikipedia.org/wiki/Secchi_disk) has for several decades been used as a very effective way to track the evolution of turbidity in various water bodies. 
