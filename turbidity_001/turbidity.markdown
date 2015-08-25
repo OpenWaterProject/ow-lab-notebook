@@ -36,11 +36,11 @@ Background readings / materials:
 
 - Chris' design for PVC housing
 
-![pvc1](./assets/pvc-1.jpg)
+<img src="./assets/pvc-1.jpg" width=200>
 
-![pvc2](./assets/pvc-2.jpg)
+<img src="./assets/pvc-2.jpg" width=200>
 
-![pvc3](./assets/pvc-3.jpg)
+<img src="./assets/pvc-3.jpg" width=200>
 
 "It looks like you have to measure light intensity at 90° from light direction. So you need a mirror.
 
