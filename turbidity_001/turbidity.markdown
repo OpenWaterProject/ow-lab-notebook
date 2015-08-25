@@ -95,6 +95,7 @@ Notes: this sensor seems good b/c it's sensitive in the IR as well, and the reco
 
 - standard through-hole (might be good for right angle) : http://www.mouser.com/ProductDetail/Vishay/VSLY5850/?qs=%2fha2pyFadugHlaDgAnxVreaWM4F24NfyKTuez%2fhKXaXkF7mGSG1aBg%3d%3d
 
+- list of parts on digikey (search for 830 nm to 890 nm): http://www.digikey.com/product-search/en?pv40=17&pv40=874&pv40=873&pv40=574&pv40=615&pv40=19&pv40=44&pv40=181&pv40=8&pv40=877&pv40=643&pv40=586&pv40=63&FV=fff40008%2Cfff80028&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25
 
 
 # Next steps
