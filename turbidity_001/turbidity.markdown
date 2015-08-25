@@ -33,14 +33,16 @@ Another method, the Great Lakes Instrument Method 2, further reduces error in th
 
 ![multiple](./assets/four-beam-color.png)
 
-Because of the complexity of this configuration, however, it seems better to focus on a single sensor-emitter pair, in line with the EPA / ISO standards.  Typical sensor instruments implement this configuration in the tip of the probe:
+Because of the complexity of this configuration, however, it seems better to focus on a single sensor-emitter pair, in line with the EPA / ISO standards.  Typical sensor instruments implement this configuration in the tip of the probe (sometimes including detectors at angles other than 90 degrees (e.g., the 'back scatter' detector in the below figure) in order to attempt to do some error compensation:
 
 ![sensor-design](./assets/sensor-design.png)
 
-
 # First steps towards measurement
 
-- Chris' design for PVC housing
+So, as a first pass, it seems like a good idea to focus on the simplest design that will provide useful data.  In particular, I'm interested in building a 'turbidity alert' that detects changes from baseline; but it seems that this is accomplished by attempting to fulfill the ISO 7027 method, which is a fairly simple way of approaching the trigger system, anyway.  
+
+### Fastie's design
+I had some very useful discussions with Chris Fastie about constructing a window system in an enclosure that would allow for such 90 degree orientations.  He quickly sketched up some prototypes:
 
 <img src="./assets/pvc-1.jpg" width=300>
 
@@ -48,30 +50,26 @@ Because of the complexity of this configuration, however, it seems better to foc
 
 <img src="./assets/pvc-3.jpg" width=400>
 
-"It looks like you have to measure light intensity at 90° from light direction. So you need a mirror.
+Chris' notes:
 
-The design above has two features:
+> It looks like you have to measure light intensity at 90° from light direction. So you need a mirror. The design above has two features: 1) There is only one simple small window that has to be waterproofed. 2) The baffle keeps ambient light to a minimum but allows plenty of water to circulate in front of the window. Since you need to measure at 90°, you can just put a mirror on the baffle at 45°. Shoot the light straight out to it and measure it a cm from the mirror.
 
-- There is only one simple small window that has to be waterproofed.
+### Pete Marchetto's design:
 
-- The baffle keeps ambient light to a minimum but allows plenty of water to circulate in front of the window.
-
-Since you need to measure at 90°, you can just put a mirror on the baffle at 45°. Shoot the light straight out to it and measure it a cm from the mirror."
-
-
-- Pete design
+At a recent water quality sensor workshop in Port Jervis, NY, Pete Marchetto and Katy Hofmeister presented a turbidity sensor design that simply used an LED and an photocell pointing directly at one another:
 
 ![linear1](./assets/linear-1.png)
 
 ![linear2](./assets/linear-2.png)
 
-- sketch of design idea with Bethany re: pvc / riffle
+The emitter and detector are hot glued to the outside of a plastic box, which is intended to be submersed in water.  It was inspiring to see this simple design!  In the design I'm pursuing, I'm thinking of trying to find a way to accomplish the 90 degree offset as in the above standards, and I might opt for a different light detector -- but Pete and Katy's design might be all one needs to accomplish a 'turbidity alert' device, and should probably be attempted in parallel.  
 
+Along with these designs, there are several existing designs in the community for turbidimeters and the like: 
 
-- Hackteria.org design for DIY turibidy meter: http://hackteria.org/wiki/index.php/DIY_turbidity_meters
+- Hackteria.org has collected several designs for a DIY turibidy meter: http://hackteria.org/wiki/index.php/DIY_turbidity_meters
 
-- 'Affordable Open-Source Turbidimeter' http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CCkQFjABahUKEwiagNbHtsPHAhWBbD4KHer-AF8&url=http%3A%2F%2Fwww.mdpi.com%2F1424-8220%2F14%2F4%2F7142%2Fpdf&ei=BfPbVdrpGYHZ-QHq_YP4BQ&usg=AFQjCNEaOSQL8Hzs4HLt5y-m1jHs-HROGg&sig2=LQc0_LE4zv79vbMGlUEcBw
-- and: https://github.com/wash4all/open-turbidimeter-project
+- Cornell has published a design for an open source turbidimeter -- particularlly nice is that they've worked to calibrate and compare their instrument against known standards and other commercial instruments, and present their methods and materials for doing so. 
+- ['Affordable Open-Source Turbidimeter'](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CCkQFjABahUKEwiagNbHtsPHAhWBbD4KHer-AF8&url=http%3A%2F%2Fwww.mdpi.com%2F1424-8220%2F14%2F4%2F7142%2Fpdf&ei=BfPbVdrpGYHZ-QHq_YP4BQ&usg=AFQjCNEaOSQL8Hzs4HLt5y-m1jHs-HROGg&sig2=LQc0_LE4zv79vbMGlUEcBw) and: https://github.com/wash4all/open-turbidimeter-project
 - supplementary material: http://www.mdpi.com/1424-8220/14/4/7142/s1
 
 - cell concentration turbidimeter (open source ecology) http://opensourceecology.org/wiki/CellConcentrationTurbidimeter
