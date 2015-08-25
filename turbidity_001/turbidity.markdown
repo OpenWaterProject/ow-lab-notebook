@@ -8,7 +8,7 @@ Just wanted to gather some useful materials around turbidity -- how it's usually
 
 The gist (as far as I yet understand!) is:  measuring the amount of suspended solids in water -- solids that haven't fully dissolved --  is a commonly used water quality parameter. In many contexts, having a lot of solids floating in the water -- stuff like silt, clay, algae, other organic matter  -- is undesirable, so folks want some associated metric.  For a rough measure, we can often simply *look* at a given sample of water --  water with a lot of solids floating in it will tend to look more opaque -- it'll look 'muddy'.  But in order to really track changes over time, or compare different bodies of water, it's often nice to have a metric that is more precise than 'not very muddy' vs. 'pretty muddy'. [1] This motivates folks to define what they call 'turbidity': there are various specific definitions of turbidity, but in general they all involve an assessment of the amount of suspended solids that relies on shining light through the water, and then making optical measurements of what light emerges from the water sample.  The idea is that solid particles will tend to scatter light in revealing ways, rather than allowing it to pass through in the manner it would without any suspended matter present in the water.  
 
-# Standards / references / definitions
+# Sensor designs 
 
 We've found some good background readings that lead one through the various approaches to turibidity, and the associated designs / standards.
 
@@ -76,9 +76,9 @@ Along with these designs, there are several existing designs in the community fo
 
 - cell concentration turbidimeter (open source ecology) http://opensourceecology.org/wiki/CellConcentrationTurbidimeter
 
-## Sensors
+### Detectors 
 
-Collecting some promising sensors ...
+Collecting some promising detector options ...
 
 A common light sensor is a very inexpensive photoresistor made of Cadmium-Sulfide:
 
@@ -98,7 +98,7 @@ Another possibility is an analog sensor, the [GA1A12S202 Log-scale Analog Light 
 
 Speaking of simple protocols -- there also exist light level -> frequency converter chips, as per this device: http://www.ti.com/lit/ds/symlink/tsl235.pdf.  This means that a light level could be output to a frequency.
 
-## Emitters
+### Emitters
 
 The other side of the process is the 'emitter' -- the light source.  Here's a quick list of options found looking for LEDs in the range of 860 nm +/- 30 nm:
 
