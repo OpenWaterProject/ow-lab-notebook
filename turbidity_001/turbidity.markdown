@@ -83,6 +83,19 @@ Notes: this sensor seems good b/c it's sensitive in the IR as well, and the reco
 - Craig's photocell + op-amp idea
 - light-frequency converter (for Coqui-like device): http://www.ti.com/lit/ds/symlink/tsl235.pdf
 
+## Emitters
+
+- Surface mount chips at 850 nm: http://www.mouser.com/new/optoelectronics/infrared-data-communications/infrared-emitters-high-power/n-9frrm -- emit mostly out of top of chip
+
+- includes a lens: http://www.mouser.com/new/vishay/vishay-vsmy98545-emitting-diode/
+
+- also includes a lens: http://www.mouser.com/new/vishay/vishay-VSMB294002-VSMG285011/
+
+- another lens: http://www.mouser.com/ProductDetail/Vishay/VSMY2853G/?qs=%2fha2pyFadugK0phM2wfy67VmOV1pULyoxZhtFkoVwP8r9I2X0wJNtA%3d%3d
+
+- standard through-hole (might be good for right angle) : http://www.mouser.com/ProductDetail/Vishay/VSLY5850/?qs=%2fha2pyFadugHlaDgAnxVreaWM4F24NfyKTuez%2fhKXaXkF7mGSG1aBg%3d%3d
+
+
 
 # Next steps
 
