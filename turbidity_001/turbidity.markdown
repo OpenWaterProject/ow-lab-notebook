@@ -1,5 +1,5 @@
 
-<img src="./assets/turbidity.png">
+<img src="https://github.com/OpenWaterProject/ow-lab-notebook/blob/master/turbidity_001/assets/turbidity.png">
 
 
 Just wanted to gather some useful materials around turbidity -- how it's usually assessed, and various approaches one might take to measuring it.
