@@ -22,7 +22,13 @@ The final device deployed was:
 - An Adafruit SD card breakout board
 - Laura's AT30TS750A breakout boards: three of them in a chain
 
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/thermal_001/assets/finalDevice.JPG" width=400>
+
 <img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/thermal_001/assets/sensorOnDock.JPG" width=400>
+
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/thermal_001/assets/inBag.jpg" width=400>
+
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/thermal_001/assets/offDock.jpg" width=400>
 
 # Pro tip
 
