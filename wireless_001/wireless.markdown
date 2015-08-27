@@ -40,6 +40,8 @@ This device requires a microcontroller (Arduino or equivalent) in order to work.
 
 - RFM69 - $5 on EBay or equiv 
 
+<img src="./assets/rfm60.png" width=300>
+
 This nice little radio has become popular in the Arduino world, recently; it is an update of the RFM12 hardware.  Options include 433 and 915 MHz bands (restrictions apply on using one or the other of these bands, depending on the country you're in).  
 
 The radio requires a microcontroller in order to be used, and connects via the 'SPI' interface (a certain subset of microcontroller pins).   
@@ -79,7 +81,7 @@ Wifi is an attractive connectivity technology, as many urban areas and homes are
 
 - [Adafruit WIFI module (CC3000-based)](http://www.adafruit.com/product/1469) - $35
 
-<img src="./assets/cc3000.png">
+<img src="./assets/cc3000.png" width=300 >
 
 **Connectivity**. Good, in a sense; in my experience, most devices have ended up being hard to keep connected in a reliable way.  This might just point to writing more sophisticated software that resets the hardware after a failed / dropped connection.  This is easier with a full operating system, like that found on the Raspberry Pi in the [OPK project](http://publiclab.org/wiki/open-pipe-kit).  
 
