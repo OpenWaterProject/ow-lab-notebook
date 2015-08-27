@@ -34,13 +34,13 @@ This device requires a microcontroller (Arduino or equivalent) in order to work.
 
 **Cost**.  Note that in addition to the hardware, one must pay the data / SMS fees associated with the SIM card plan.
 
-<img src="./assets/fona.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/wireless_001/assets/fona.png" width=300>
 
 ### 433 MHz / RFM69
 
 - RFM69 - $5 on EBay or equiv 
 
-<img src="./assets/rfm60.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/wireless_001/assets/rfm60.png" width=300>
 
 This nice little radio has become popular in the Arduino world, recently; it is an update of the RFM12 hardware.  Options include 433 and 915 MHz bands (restrictions apply on using one or the other of these bands, depending on the country you're in).  
 
@@ -52,7 +52,7 @@ The radio requires a microcontroller in order to be used, and connects via the '
 
 **Cost**. Inexpensive!  $5 for the radio itself.  That said, one will need a breakout board or equivalent in order to use it.  An example of a project that combines an Arduino clone and this radio is the 'Moteino' project -- [Moteino](http://lowpowerlab.com/moteino/) - $20 -- check it out!
 
-<img src="./assets/moteino.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/wireless_001/assets/moteino.png" width=300>
 
 ### Bluetooth
 
@@ -60,11 +60,11 @@ I haven't yet played with Bluetooth; but for short-range (10 meters?) point-to-p
 
 - [nRF8001 Bluetooth LE breakout](http://www.adafruit.com/products/1697) -- $23 
 
-<img src="./assets/nrf8001.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/wireless_001/assets/nrf8001.png" width=300>
 
 - [Bluefruit](http://www.adafruit.com/product/1588) -- $23 
 
-<img src="./assets/bluefruit.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/wireless_001/assets/bluefruit.png" width=300>
 
 Both of these require the addition of a microcontroller or other device.  
 
@@ -81,7 +81,7 @@ Wifi is an attractive connectivity technology, as many urban areas and homes are
 
 - [Adafruit WIFI module (CC3000-based)](http://www.adafruit.com/product/1469) - $35
 
-<img src="./assets/cc3000.png" width=300 >
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/wireless_001/assets/cc3000.png" width=300 >
 
 **Connectivity**. Good, in a sense; in my experience, most devices have ended up being hard to keep connected in a reliable way.  This might just point to writing more sophisticated software that resets the hardware after a failed / dropped connection.  This is easier with a full operating system, like that found on the Raspberry Pi in the [OPK project](http://publiclab.org/wiki/open-pipe-kit).  
 
