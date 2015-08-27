@@ -24,25 +24,23 @@ Here are some of the characteristics / pros / cons of each.
 
 **Cell modem**.  
 
-- [Adafruit FONA](http://www.adafruit.com/products/1963?gclid=Cj0KEQjw6vquBRCow62uo-_J_YYBEiQAMO6HimQOlkuzxVL-0okhQbUoONyUpwh6gntl6Kk8GkTCLVEaAn088P8HAQ)
+- [Adafruit FONA](http://www.adafruit.com/products/1963?gclid=Cj0KEQjw6vquBRCow62uo-_J_YYBEiQAMO6HimQOlkuzxVL-0okhQbUoONyUpwh6gntl6Kk8GkTCLVEaAn088P8HAQ) - $45 (+ $5 for antenna + $10 for sim card) 
 
 <img src="./assets/fona.png" width=300>
 
-
 **433 MHz**.
 
-- [Moteino](http://lowpowerlab.com/moteino/)
-
+- [Moteino](http://lowpowerlab.com/moteino/) - $20
 
 **Bluetooth**.
 
-- [nRF8001 Bluetooth LE breakout](http://www.adafruit.com/products/1697)
+- [nRF8001 Bluetooth LE breakout](http://www.adafruit.com/products/1697) -- $23 
 
-- [Bluefruit](http://www.adafruit.com/product/1588)
+- [Bluefruit](http://www.adafruit.com/product/1588) -- $23 
 
 **WIFI**. 
 
-- [Adafruit WIFI module (CC3000-based)](http://www.adafruit.com/product/1469)
+- [Adafruit WIFI module (CC3000-based)](http://www.adafruit.com/product/1469) - $35
 
 
 
