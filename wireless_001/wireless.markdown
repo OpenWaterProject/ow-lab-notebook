@@ -32,6 +32,8 @@ Here are some of the characteristics / pros / cons of each.
 
 - [Moteino](http://lowpowerlab.com/moteino/) - $20
 
+<img src="./assets/moetino.png" width=300>
+
 **Bluetooth**.
 
 - [nRF8001 Bluetooth LE breakout](http://www.adafruit.com/products/1697) -- $23 
