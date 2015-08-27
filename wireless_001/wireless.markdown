@@ -38,7 +38,7 @@ This device requires a microcontroller (Arduino or equivalent) in order to work.
 
 ### 433 MHz / RFM69
 
-- RFM69 - $5 
+- RFM69 - $5 on EBay or equiv 
 
 This nice little radio has become popular in the Arduino world, recently; it is an update of the RFM12 hardware.  Options include 433 and 915 MHz bands (restrictions apply on using one or the other of these bands, depending on the country you're in).  
 
