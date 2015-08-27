@@ -40,7 +40,7 @@ This device requires a microcontroller (Arduino or equivalent) in order to work.
 
 - RFM69 - $5 on EBay or equiv 
 
-<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/wireless_001/assets/rfm60.jpg" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/wireless_001/assets/rfm69.jpg" width=300>
 
 This nice little radio has become popular in the Arduino world, recently; it is an update of the RFM12 hardware.  Options include 433 and 915 MHz bands (restrictions apply on using one or the other of these bands, depending on the country you're in).  
 
