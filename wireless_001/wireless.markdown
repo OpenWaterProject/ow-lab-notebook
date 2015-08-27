@@ -58,7 +58,11 @@ I haven't yet played with Bluetooth; but for short-range (10 meters?) point-to-p
 
 - [nRF8001 Bluetooth LE breakout](http://www.adafruit.com/products/1697) -- $23 
 
+<img src="./assets/nrf8001.png" width=300>
+
 - [Bluefruit](http://www.adafruit.com/product/1588) -- $23 
+
+<img src="./assets/bluefruit.png" width=300>
 
 Both of these require the addition of a microcontroller or other device.  
 
@@ -74,6 +78,8 @@ Both of these require the addition of a microcontroller or other device.
 Wifi is an attractive connectivity technology, as many urban areas and homes are already connected.  An example piece of hardware is the following breakout board (for use with a microcontroller):
 
 - [Adafruit WIFI module (CC3000-based)](http://www.adafruit.com/product/1469) - $35
+
+<img src="./assets/cc3000.png">
 
 **Connectivity**. Good, in a sense; in my experience, most devices have ended up being hard to keep connected in a reliable way.  This might just point to writing more sophisticated software that resets the hardware after a failed / dropped connection.  This is easier with a full operating system, like that found on the Raspberry Pi in the [OPK project](http://publiclab.org/wiki/open-pipe-kit).  
 
