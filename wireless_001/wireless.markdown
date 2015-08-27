@@ -32,7 +32,7 @@ Here are some of the characteristics / pros / cons of each.
 
 - [Moteino](http://lowpowerlab.com/moteino/) - $20
 
-<img src="./assets/moetino.png" width=300>
+<img src="./assets/moteino.png" width=300>
 
 **Bluetooth**.
 
