@@ -18,7 +18,7 @@ The only downside of an ARM-based device at the moment is that it isn't quite co
 
 The first attempt (with much help from Ben and many others), was called the [Riffle-ito](https://github.com/dwblair/riffle-ito).  It relied on using an FTDI cable for programming, recorded values to a local SD card, and connects to 'daughter boards' for measuring conductivity, temperature, and the like.  The particular shape of the board was designed to fit inside a typical water bottle, in order to leverage the existence of this ubiquitous, waterproof enclosure. 
 
-<img src="riffle-it-front.png" width=300>
+<img src="./assets/riffle-ito-front.png" width=300>
 
 ### Riffle 0.96
 
