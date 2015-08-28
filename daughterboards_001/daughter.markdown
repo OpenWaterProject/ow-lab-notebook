@@ -12,11 +12,11 @@ Meanwhile, focus on making 'daughter board' designs that are as easy as possible
 
 For example: the [conductivity + temperature](https://github.com/OpenWaterProject/riffle-plugin-CTL) sensor board we've been developing for the riffle has thus far been a surface mount design:
 
-<img src="./assets/riffle-CTL-front.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/daughterboards_001/assets/riffle-CTL-front.png" width=300>
 
 I recently submitted a through-hole version of this to OSHPark.com (the design is located in the same repository, above):
 
-<img src="./assets/daughter-dip-front.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/daughterboards_001/assets/daughter-dip-front.png" width=300>
 
 This version should be easy to use as a breakout board with other microcontrollers, while still being easy for folks to assemble themselves ...
 
