@@ -10,7 +10,7 @@ The initial prototype for the device, designed by Ben Gamari and Laura Dietz, wa
 
 This device uses an ARM chip (the type of chip used in many phones and tablets tehse days); ARM is likely the bright future of low-power, low-cost microcontrollers.  Ben's design combines pressure, radio, an SD card, serial output, and a conductivity measurement on a compact board, and was designed to be housed inside a PVC container, with an additional 'daughter board' placed outside the PVC and sealed inside epoxy.  Stay tuned for more developments on this board, or check out the above-linked repository to contribute!
 
-<img src="./assets/ben-riffle-front.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/datalogger_001/assets/ben-riffle-front.png" width=300>
 
 ### Riffle-328
 
@@ -18,13 +18,13 @@ The only downside of an ARM-based device at the moment is that it isn't quite co
 
 The first attempt (with much help from Ben and many others), was called the [Riffle-ito](https://github.com/dwblair/riffle-ito).  It relied on using an FTDI cable for programming, recorded values to a local SD card, and connects to 'daughter boards' for measuring conductivity, temperature, and the like.  The particular shape of the board was designed to fit inside a typical water bottle, in order to leverage the existence of this ubiquitous, waterproof enclosure. 
 
-<img src="./assets/riffle-ito-front.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/datalogger_001/assets/riffle-ito-front.png" width=300>
 
 ### Riffle 0.96
 
 In [this version](https://github.com/OpenWaterProject/riffle/blob/master/hardware/riffle-0.96.sch), we decided to forgo the FTDI cable (expensive, and requires keeping track of yet another object), and include USB capability on the device itself.  This new version of the Riffle has the following features:
 
-<img src="./assets/riffle-0.96-board.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/datalogger_001/assets/riffle-0.96-board.png" width=300>
 
 - a real time clock, for keeping track of the time while the device is asleep (along with a small battery dedicated to the real time clock, so that we still track time when the device is without main battery)
 - an on-board lipo battery controller / charger
@@ -40,7 +40,7 @@ We made several of these devices recently, and they seem to work pretty well! On
 
 In [this version](https://github.com/OpenWaterProject/riffle/blob/master/hardware/riffle-0.96-usb-tab.sch)the microUSB header to use the one used in the Arduino Leonardo, which has some features allowing for solder to go through the board and fix the part to the board more securely.  We've ordered a few of these, and we'll see soon how well they work.
 
-<img src="./assets/riffle-0.96-usb-front.png" width=300>
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/datalogger_001/assets/riffle-0.96-usb-front.png" width=300>
 
 
 ### Next steps
