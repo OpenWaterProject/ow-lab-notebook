@@ -13,7 +13,7 @@ I was in a rush last week to attempt this idea, so I simply took the adhesives a
 <img src="./assets/on_plate.jpg">
 <img src="./assets/temp_probe.jpg">
 
-I also ordered some [dessicant](https://en.wikipedia.org/wiki/Desiccant), available on Amazon for about [fifty cents each](http://www.amazon.com/gp/product/B004N6O1NY?psc=1&redirect=true&ref_=oh_aui_detailpage_o01_s01). 
+I also ordered some [dessicant](https://en.wikipedia.org/wiki/Desiccant), available on Amazon for about [fifty cents each](http://www.amazon.com/gp/product/B004N6O1NY?psc=1&redirect=true&ref_=oh_aui_detailpage_o01_s01), which purportedly changes color when it absorbs moisture ... 
 
 <img src="./assets/dessicant_2.jpg">
 
