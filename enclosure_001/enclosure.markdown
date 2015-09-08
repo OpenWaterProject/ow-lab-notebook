@@ -8,14 +8,14 @@ The other advantage of this approach is that it gets around using adhesives dire
 
 I was in a rush last week to attempt this idea, so I simply took the adhesives available on my desk, took some wires -- and then, at the very last minute, a temperature probe -- and tried sealing them nicely inside the rubber stoppers. I let them cure over the Labor Day weekend, with the idea of deploying them asap.
  
-<img src="./assets/all_enclosures.jpg">
-<img src="./assets/gaps_silicone_2.jpg">
-<img src="./assets/on_plate.jpg">
-<img src="./assets/temp_probe.jpg">
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/enclosure_001/assets/all_enclosures.jpg">
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/enclosure_001/assets/gaps_silicone_2.jpg">
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/enclosure_001/assets/on_plate.jpg">
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/enclosure_001/assets/temp_probe.jpg">
 
 I also ordered some [dessicant](https://en.wikipedia.org/wiki/Desiccant), available on Amazon for about [fifty cents each](http://www.amazon.com/gp/product/B004N6O1NY?psc=1&redirect=true&ref_=oh_aui_detailpage_o01_s01), which purportedly changes color when it absorbs moisture ... 
 
-<img src="./assets/dessicant_2.jpg">
+<img src="https://raw.githubusercontent.com/OpenWaterProject/ow-lab-notebook/master/enclosure_001/assets/dessicant_2.jpg">
 
 I'll be trying these out in water bottles today sometime -- will post pics of the configuration ...
 
