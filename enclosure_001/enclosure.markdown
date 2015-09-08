@@ -17,3 +17,6 @@ I also ordered some [dessicant](https://en.wikipedia.org/wiki/Desiccant), availa
 
 <img src="./assets/dessicant_2.jpg">
 
+I'll be trying these out in water bottles today sometime -- will post pics of the configuration ...
+
+
